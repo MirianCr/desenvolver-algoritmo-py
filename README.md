@@ -1,11 +1,14 @@
 # desenvolver-algoritmo-py
 A pessoa digita nome e dados do aluno e codigo indica se ele foi aprovado ou nao
-alunos = []
-while True:
-    nome = input("Digite nome do aluno:")
-    cpf=input("Digite o CPF:")
-    email=input("Digite o email:")
-    matricula = input("Digite a matricula:")
+
+
+
+    alunos = []
+    while True:
+        nome = input("Digite nome do aluno:")
+        cpf=input("Digite o CPF:")
+        email=input("Digite o email:")
+        matricula = input("Digite a matricula:")
 
     nota1 = float(input("Digite a nota 1:"))
     nota2 = float(input("Digite a nota 2:"))
@@ -52,7 +55,7 @@ while True:
     continuar = input("Quer cadastrar outro aluno? (s/n)")
     if continuar.lower() != 's':
         break
-    
-print("\nLista de alunos:")
-for a in alunos:
-    print(a)
+        
+    print("\nLista de alunos:")
+    for a in alunos:
+        print(a)
